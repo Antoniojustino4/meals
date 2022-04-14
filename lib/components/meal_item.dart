@@ -12,7 +12,9 @@ class MealItem extends StatelessWidget {
     Navigator.of(context).pushNamed(
       AppRoutes.MEALS_DETAIL,
       arguments: meal,
-    );
+    ).then((value) {
+      
+    });
   }
 
   @override
